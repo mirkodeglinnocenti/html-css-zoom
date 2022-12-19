@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Lato', sans-serif;
+}
+
 img{
     max-width: 100%;
 }
@@ -30,12 +34,12 @@ footer .col{
     display: flex;
     align-items: center;
     gap: 20px;
+    padding: 12px;
 }
 
 .row{
     display: flex;
     justify-content: space-between;
-    padding: 12px;
     background-color: #464646;
 }
 
@@ -62,6 +66,19 @@ footer .col{
 }
 
 .icon-items{
-    font-size: 22px;
+    font-size: 26px;
     margin-bottom: 5px;
+}
+
+.fa-solid.fa-share-from-square.icon-items{
+    color: rgb(20, 196, 20);
+}
+
+footer .col.col-last{
+    color: red;
+    background-color: #999999;
+}
+
+footer span{
+    font-size: 14px;
 }
