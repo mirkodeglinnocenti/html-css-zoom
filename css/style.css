@@ -143,3 +143,30 @@ footer .col.col-last{
 footer span{
     font-size: 14px;
 }
+
+/* Elementi in alto a destra */
+
+.icon-settings{
+    background-color: #4A4A4A;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.speak-icon{
+    width: 110px;
+}
+
+.expand-icon{
+    width: 22px;
+    margin-left: 8px;
+}
+
+.icon-up{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 6px;
+    right: 5px;
+}
